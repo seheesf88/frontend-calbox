@@ -1,0 +1,30 @@
+.shipping_form {
+  padding-top: 105px;
+  padding-left: 583px;
+  font-family: montserrat;
+}
+
+#title {
+  font-size: 36px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50%;
+  font-size: 18px;
+  /* border: 1px solid */
+}
+
+#divider {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.shipping_form_box {
+  border: 1px solid;
+  padding-top: 159px;
+  margin-left: 320px;
+  width: 800px;
+  height: 1208px;
+}

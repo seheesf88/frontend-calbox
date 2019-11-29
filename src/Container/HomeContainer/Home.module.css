@@ -1,0 +1,20 @@
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon_shipping_form, .icon_calculator {
+  border: 1px solid;
+  width: 273px;
+  height: 330px;
+}
+
+.icon_shipping_form {
+  margin-left: 379px;
+  margin-top: 200px;
+}
+
+.icon_calculator {
+  margin-left: 36px;
+  margin-top: 200px;
+}
