@@ -18,7 +18,7 @@ class HomeContainer extends Component {
               go to shipping form
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/calculate">
             <div className={style.icon_calculator}>
               go to Calculator
             </div>

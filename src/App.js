@@ -4,6 +4,8 @@ import './App.css';
 import { Route, Switch } from 'react-router-dom';
 import HomeContainer from './Container/HomeContainer';
 import ShippingContainer from './Container/ShippingContainer';
+import PriceContainer from './Container/PriceContainer';
+
 
 
 
@@ -22,6 +24,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={ HomeContainer } />
         <Route exact path="/shippingform" component={ ShippingContainer } />
+        <Route exact path="/calculate" component={ PriceContainer } />
         <Route component={ My404 } />
       </Switch>
     </main>

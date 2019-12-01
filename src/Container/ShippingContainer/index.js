@@ -14,7 +14,7 @@ class ShippingContainer extends Component {
         <Nav />
         <div>
           <div className={style.shipping_form}>
-            <div id={style.title}>Shipping Form</div>
+            <div className={style.title}>Shipping Form</div>
             <div className={style.languages}>
                 <div className={style.option_one}>
                   English

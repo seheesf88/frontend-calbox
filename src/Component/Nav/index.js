@@ -8,13 +8,13 @@ const Nav = () => {
       <div className={style.main_nav}>navbar placeholer</div>
       <div className={style.sub_nav}>
         <div className={style.nav_item}>
-            <Link to="/" className={style.nav_item_one}>Place holder</Link>
+            <Link to="/" className={style.nav_item_one}>Place holder(home)</Link>
         </div>
         <div className={style.nav_item}>
-            <Link to="/report">Shipping Form</Link>
+            <Link to="/shippingform">Shipping Form</Link>
         </div>
         <div className={style.nav_item}>
-            <Link to="/report/new">Price Calculator</Link>
+            <Link to="/calculate">Price Calculator</Link>
         </div>
       </div>
     </div>
