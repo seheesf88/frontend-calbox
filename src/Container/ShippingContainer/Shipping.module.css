@@ -23,7 +23,8 @@
 
 .shipping_form_box {
   border: 1px solid;
-  padding-top: 159px;
+  /* padding-top: 159px; */
+  padding-top: 50px;
   margin-left: 320px;
   width: 800px;
   height: 1208px;

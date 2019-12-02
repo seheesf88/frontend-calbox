@@ -1,0 +1,74 @@
+* {
+  font-size: 18px;
+}
+
+.format {
+  display: flex;
+  flex-direction: row;
+}
+
+.labels {
+  width: 30%;
+  /* border: 1px solid; */
+  margin-left: 5%;
+  padding-left: 4%;
+  padding-top: 13px;
+}
+
+.label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#label_address {
+  margin-top: 35px;
+}
+
+.formStyle {
+  margin-top: 0;
+  /* border: 1px yellow solid; */
+  width: 45%;
+  margin-left: 3%;
+}
+
+input {
+  margin-top: 0;
+  width: 100%;
+}
+
+.cityStateContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#city {
+  width: 200px;
+  margin-right: 5px;
+}
+
+
+#label_phoneNumber {
+  margin-top: 220px;
+}
+
+#label_email {
+  margin-top: 40px;
+}
+
+.container_options {
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox {
+   width: 40px;
+   height: 40px;
+}
+
+.option {
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  margin-top: 10px;
+}
