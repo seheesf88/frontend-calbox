@@ -5,6 +5,8 @@
 .format {
   display: flex;
   flex-direction: row;
+  height: 1200px;
+  padding-bottom: 10%;
 }
 
 .labels {
@@ -18,11 +20,32 @@
 .label {
   margin-top: 5px;
   margin-bottom: 5px;
+  padding-top: 5px;
 }
 
 #label_address {
   margin-top: 35px;
 }
+
+#label_phoneNumber {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+#label_confirm_email {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+#label_delivery_options {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+#label_recipient_phone_number {
+  padding-top: 150px;
+}
+
 
 .formStyle {
   margin-top: 0;
@@ -32,7 +55,7 @@
 }
 
 input {
-  margin-top: 0;
+  /* margin-top: 10px; */
   width: 100%;
 }
 
@@ -56,6 +79,10 @@ input {
   margin-top: 40px;
 }
 
+#label_recipient_name {
+  margin-top: 150px;
+}
+
 .container_options {
   display: flex;
   flex-direction: row;
@@ -71,4 +98,12 @@ input {
   height: 40px;
   padding-top: 10px;
   margin-top: 10px;
+}
+
+.recipient_input {
+  margin-top: 20px;
+}
+
+.shipping_btn {
+  margin-top: 70%;
 }

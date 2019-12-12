@@ -10,7 +10,7 @@ class HomeContainer extends Component {
 
   render(){
     return (
-      <div>
+      <div className={style.homeContainer}>
         <Nav />
         <div className={style.icons}>
           <Link to="/shippingform">
